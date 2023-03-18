@@ -73,7 +73,7 @@ $ {
   sudo mv kubectl kube-proxy kubelet runc runsc /usr/local/bin/
   sudo tar -xvf crictl-v1.12.0-linux-amd64.tar.gz -C /usr/local/bin/
   sudo tar -xvf cni-plugins-amd64-v0.6.0.tgz -C /opt/cni/bin/
-  sudo tar -xvf containerd-1.2.0-rc.0.linux-amd64.tar.gz -C /
+  sudo tar -xvf containerd-1.2.0-rc.0.linux-amd64.tar.gz -C /usr/local/bin/
 }
 ```
 
